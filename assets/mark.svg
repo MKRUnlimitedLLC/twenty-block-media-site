@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 58" role="img" aria-labelledby="title">
+  <title id="title">Twenty Block Media  twenty blocks</title>
+  <g fill="currentColor">
+    <!-- 4 × 5 = 20 blocks -->
+    <rect x="1" y="1" width="9" height="9" rx="1"/>
+    <rect x="13" y="1" width="9" height="9" rx="1"/>
+    <rect x="25" y="1" width="9" height="9" rx="1"/>
+    <rect x="37" y="1" width="9" height="9" rx="1"/>
+
+    <rect x="1" y="13" width="9" height="9" rx="1"/>
+    <rect x="13" y="13" width="9" height="9" rx="1"/>
+    <rect x="25" y="13" width="9" height="9" rx="1"/>
+    <rect x="37" y="13" width="9" height="9" rx="1"/>
+
+    <rect x="1" y="25" width="9" height="9" rx="1"/>
+    <rect x="13" y="25" width="9" height="9" rx="1"/>
+    <rect x="25" y="25" width="9" height="9" rx="1"/>
+    <rect x="37" y="25" width="9" height="9" rx="1"/>
+
+    <rect x="1" y="37" width="9" height="9" rx="1"/>
+    <rect x="13" y="37" width="9" height="9" rx="1"/>
+    <rect x="25" y="37" width="9" height="9" rx="1"/>
+    <rect x="37" y="37" width="9" height="9" rx="1"/>
+
+    <rect x="1" y="49" width="9" height="9" rx="1"/>
+    <rect x="13" y="49" width="9" height="9" rx="1"/>
+    <rect x="25" y="49" width="9" height="9" rx="1"/>
+    <rect x="37" y="49" width="9" height="9" rx="1" opacity="0.35"/>
+  </g>
+</svg>

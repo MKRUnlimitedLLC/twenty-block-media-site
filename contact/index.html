@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Twenty Block Media</title>
+  <meta name="description" content="Reach Twenty Block Media in Fargo, North Dakota. Choose a desk — Person, Political, or Corporate — so the ask stays on the right side of the wall.">
+  <meta name="theme-color" content="#f3efe8">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body data-desk="contact">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <a class="brand" href="../index.html">
+        <img src="../assets/mark.svg" width="28" height="35" alt="">
+        <span class="brand-text">
+          <span class="brand-name">Twenty Block Media</span>
+          <span class="brand-aka">20blocks · 20block</span>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../index.html">Home</a>
+        <a href="../person/index.html">Person</a>
+        <a href="../political/index.html">Political</a>
+        <a href="../corporate/index.html">Corporate</a>
+        <a href="index.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="section">
+      <div class="wrap split">
+        <div>
+          <p class="kicker">Contact</p>
+          <h1>Talk to the right desk.</h1>
+          <p class="lede">Name the desk in the first line. We would rather route a message than mix Person, Political, and Corporate in one thread.</p>
+          <dl class="contact-meta">
+            <dt>Email</dt>
+            <dd><a href="mailto:contact@twentyblockmedia.com">contact@twentyblockmedia.com</a></dd>
+            <dd><a href="mailto:info@twentyblockmedia.com">info@twentyblockmedia.com</a></dd>
+            <dt>Place</dt>
+            <dd>Matthew Rau · Fargo, North Dakota</dd>
+            <dt>Phone</dt>
+            <dd>Not listed yet.</dd>
+            <dt>If JavaScript is off</dt>
+            <dd>Write directly to contact@ or info@. This page does not send mail by itself.</dd>
+          </dl>
+        </div>
+        <div>
+          <form id="desk-form" novalidate>
+            <label>
+              Your name
+              <input type="text" name="name" autocomplete="name" required>
+            </label>
+            <label>
+              Your email
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+            <label>
+              Organization <span class="muted">(optional)</span>
+              <input type="text" name="org" autocomplete="organization">
+            </label>
+            <label>
+              Desk
+              <select name="desk" id="desk-select" required>
+                <option value="">Choose a desk</option>
+                <option value="person">Person — story / journalism</option>
+                <option value="political">Political — Democratic advertising</option>
+                <option value="corporate">Corporate — company media</option>
+                <option value="general">Not sure — please route</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" required maxlength="4000" placeholder="Keep this to one desk. If the work spans two, say so and we will split it."></textarea>
+            </label>
+            <div class="form-actions">
+              <button type="submit">Compose email draft</button>
+              <button type="button" class="secondary" id="copy-btn">Copy message</button>
+            </div>
+            <p class="form-status" id="form-status" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer-inner">
+      <p>Twenty Block Media · Fargo, ND</p>
+      <p><a href="mailto:contact@twentyblockmedia.com">contact@twentyblockmedia.com</a></p>
+    </div>
+  </footer>
+  <script src="../js/contact.js"></script>
+</body>
+</html>
